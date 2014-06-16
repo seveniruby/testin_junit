@@ -57,7 +57,7 @@ public class AppTest
     {
         App a=new App();
         int c=a.add(0, 0);
-        assertEquals(0, c);
+        assertEquals(2, c);
     }
     public void test_5()
     {
