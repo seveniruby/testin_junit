@@ -70,5 +70,8 @@ public class AppTest
         App a=new App();
         int c=a.add(1, 1000);
         assertEquals(3, c);
+        c=a.add(1, 1001);
+        assertEquals(4, c);
+        
     }
 }

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.seveniruby.testin_junit.AppTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
-test_6(com.seveniruby.testin_junit.AppTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
+test_6(com.seveniruby.testin_junit.AppTest)  Time elapsed: 0.007 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: expected:<3> but was:<1001>
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.failNotEquals(Assert.java:282)
@@ -10,7 +10,7 @@ junit.framework.AssertionFailedError: expected:<3> but was:<1001>
 	at junit.framework.Assert.assertEquals(Assert.java:201)
 	at junit.framework.Assert.assertEquals(Assert.java:207)
 	at com.seveniruby.testin_junit.AppTest.test_6(AppTest.java:72)
-test_4(com.seveniruby.testin_junit.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+test_4(com.seveniruby.testin_junit.AppTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 junit.framework.AssertionFailedError: expected:<2> but was:<0>
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.failNotEquals(Assert.java:282)
