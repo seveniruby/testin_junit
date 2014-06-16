@@ -65,4 +65,10 @@ public class AppTest
         int c=a.add(1, 100);
         assertEquals(3, c);
     }
+    public void test_6()
+    {
+        App a=new App();
+        int c=a.add(1, 1000);
+        assertEquals(3, c);
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="2" time="0.016" errors="0" skipped="0" tests="6" name="com.seveniruby.testin_junit.AppTest">
+<testsuite failures="3" time="0.015" errors="0" skipped="0" tests="7" name="com.seveniruby.testin_junit.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files (x86)\Java\jdk1.7.0_40\jre\bin"/>
@@ -63,8 +63,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.002" classname="com.seveniruby.testin_junit.AppTest" name="test_1"/>
-  <testcase time="0.004" classname="com.seveniruby.testin_junit.AppTest" name="test_4">
+  <testcase time="0.005" classname="com.seveniruby.testin_junit.AppTest" name="test_6">
+    <failure message="expected:&lt;3&gt; but was:&lt;1001&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;1001&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at com.seveniruby.testin_junit.AppTest.test_6(AppTest.java:72)
+</failure>
+  </testcase>
+  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="testApp"/>
+  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_1"/>
+  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_2"/>
+  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_3"/>
+  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_4">
     <failure message="expected:&lt;2&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;2&gt; but was:&lt;0&gt;
 	at junit.framework.Assert.fail(Assert.java:47)
 	at junit.framework.Assert.failNotEquals(Assert.java:282)
@@ -74,9 +87,6 @@
 	at com.seveniruby.testin_junit.AppTest.test_4(AppTest.java:60)
 </failure>
   </testcase>
-  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="testApp"/>
-  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_2"/>
-  <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_3"/>
   <testcase time="0" classname="com.seveniruby.testin_junit.AppTest" name="test_5">
     <failure message="expected:&lt;3&gt; but was:&lt;101&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;101&gt;
 	at junit.framework.Assert.fail(Assert.java:47)
