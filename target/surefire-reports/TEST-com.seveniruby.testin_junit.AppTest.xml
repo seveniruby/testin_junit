@@ -96,5 +96,14 @@
 	at junit.framework.Assert.assertEquals(Assert.java:207)
 	at com.seveniruby.testin_junit.AppTest.test_5(AppTest.java:66)
 </failure>
+    <failure message="expected:&lt;3&gt; but was:&lt;101&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;101&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at com.seveniruby.testin_junit.AppTest.test_5(AppTest.java:68)
+</failure>
+
   </testcase>
 </testsuite>
